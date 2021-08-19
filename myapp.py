@@ -10,7 +10,7 @@ import os
 # sc = StatsCan(
 #     r"C:\Users\kevin\OneDrive\Documents\Python Projects\streamlit QTR")
 
-st.image("logo.png", use_column_width=True)
+#st.image("logo.png", use_column_width=True)
 
 df = sc.table_to_df('3610010401')
 df['Year'] = df.REF_DATE.astype(str).str[:4]
