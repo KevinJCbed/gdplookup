@@ -3,8 +3,8 @@ import pandas as pd
 
 #sc = StatsCan("https://github.com/KevinJCbed/gdplookup/blob/main/stats_can.h5")
 
-# st.image("https://github.com/KevinJCbed/gdplookup/blob/main/logo.png",
-#          use_column_width=True)
+st.image("https://akm-img-a-in.tosshub.com/businesstoday/images/story/201911/gdp_india_11_660_291119100957.jpg?size=1200:675",
+         use_column_width=True)
 
 df = pd.read_csv(
     "https://raw.githubusercontent.com/KevinJCbed/gdplookup/main/data.csv")
